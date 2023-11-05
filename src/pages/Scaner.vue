@@ -177,7 +177,7 @@ export default {
           });
       }
       setTimeout(() => {
-        window.location.replace("https://sound-board-5bmk.onrender.com/")
+        window.location.replace("https://sound-board-4ns8.onrender.com/")
       }, 2000);
     },
     run () {

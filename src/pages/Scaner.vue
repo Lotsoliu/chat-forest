@@ -61,7 +61,7 @@ export default {
     // 视频高度
     videoHeight: {
       type: Number,
-      default: document.documentElement.clientHeight - 48 || document.body.clientHeight - 48
+      default: document.documentElement.clientHeight|| document.body.clientHeight
     },
     responsive: {
       type: Boolean,
@@ -177,7 +177,7 @@ export default {
           });
       }
       setTimeout(() => {
-        window.location.replace("https://www.baidu.com")
+        window.location.replace("https://sound-board-5bmk.onrender.com/")
       }, 2000);
     },
     run () {

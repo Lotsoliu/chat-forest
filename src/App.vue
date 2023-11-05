@@ -1,10 +1,10 @@
 <script setup>
-import Scaner from './components/Scaner.vue';
+import Scaner from "./pages/Scaner.vue"
 </script>
 
 <template>
   <div>
-    <Scaner/>
+    <Scaner></Scaner>
   </div>
 </template>
 
